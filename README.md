@@ -9,7 +9,7 @@ In a nutshell, CN reads minds! If that wasnt fun enough, its currently calibrate
     "name": "Matt",
     "currentBeer": "Guinness",
     "currentThought": "I wonder why this works?",
-    "daydream": "https://media.giphy.com/media/5nj4KLBy2mhkH1pUWT/giphy.gif",
+    "daydream": "https://media.giphy.com/media/5nj4KLBy2mhkH1pUWT/giphy.gif"
 }
 ```
 
