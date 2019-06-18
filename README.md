@@ -1,40 +1,49 @@
-# Help PDQ.com with an exciting new product!
+# Jr. System Administrator (Associate Solutions Engineer) Technical Assessment
 
-Here at PDQ.com we pride ourselves on being at the **very** cutting edge of technology. When we determined that the best way to keep our customers happy was to read their minds, we dove right in. Here we are a year later and the progress we've made is incredible! That said, between continuously improving PDQ Deploy, PDQ Inventory, and working tirelessly on the *Cabalistic Necromancer* (good name eh?) our engineers are stretched extremely thin. That's where you come in! Help us get the Cabalistic Necromancer (CN) to an alpha stage we can be proud of and demo to executives!
+This is an open book assessment so use your highly honed Google-Fu skills.
 
-In a nutshell, CN reads minds! If that wasn't fun enough, it's currently calibrated to read the minds of PDQ.com employees ([1](##Disclaimers)). The way it is [currently implemented](##Links:)  the CN exposes a simple rest endpoint at https://pdqweb.azurewebsites.net/api/brain. This endpoint will return a **Thought** object (in JSON) that looks like this:
- 
-```json
-{
-    "name": "Matt",
-    "currentBeer": "Guinness",
-    "currentThought": "I wonder why this works?",
-    "daydream": "https://media.giphy.com/media/5nj4KLBy2mhkH1pUWT/giphy.gif"
-}
+Create/open a plain .txt file and answer the following:
+
+1. Research a topic in IT where you are not an expert (20 minutes or so). When finished, write a summary paragraph that explains the topic so a non-technical person could understand.
+
+2. What was the last thing you automated/scripted? If you haven’t automated anything, what is something you would like to? Explain to us how you automated the task or a high-level overview of how you would. The automation does not need to be tied directly to your current job; this can include those pet projects you have in your home lab.
+
+3. How do you alter the ports that accept RDP?
+
+4. Please select the five characteristics of a job or work environment that are the most important to you and rank them in order of importance (1 being most important).
+
+ ```_____ Using interesting new technologies
+_____ Mentoring others
+_____ Working with smart people ("A Players")
+_____ Learning from others
+_____ Working with nice people
+_____ Doing things the "Right Way"
+_____ Solving hard technical problems
+_____ Making customers happy
+_____ Working closely with a customer
+_____ Opportunity for travel
+_____ Creating innovative solutions
+_____ Leading a team
+_____ Developing / Providing high quality solutions
+_____ Working on a team
+_____ Opportunity for advancement
+_____ Other: _____________________________
 ```
 
-We, the engineering team, are very proud of this system, but we think it needs a bit more before we go show it to the executives. Namely, it needs a UI.
+5. What port does ping use?
 
-Unfortuantely our current system, which is very much still in *Alpha* stage has an issue where if multiple requests are sent to the `https://pdqweb.azurewebsites.net/api/brain` endpoint simultaneously, and the CN happens to pick the same employee's mind to read for any 2 of those requests... Well, let's just say the **Thought** it returns will likely be that employee's last... What is there to say, science is dangerous sometimes 🤷. To avoid this unfortunate outcome we need you to actually make a small backend as well as a small frontend.
+6. What is one thing you would like to change in your current work environment, but you can't? What is it, and how would you change it?
 
-The backend should host a simple endpoint (REST, websockets, grpc, whatever) that *your* frontend clients can use to invoke a call to `https://pdqweb.azurewebsites.net/api/brain` and then return the result to *all connected clients*. Furthermore, the backend needs to ensure that only 1 request is ever going to `https://pdqweb.azurewebsites.net/api/brain`! This is **vitally** important, please dont hurt any ~~more~~ employees!
+7. Why do you want to work at PDQ.com generally and specifically?
 
-The frontend should have a button that will invoke *your* API and present the information returned from the call *as well as* a photo of the employee (these photos can be retreived from https://www.pdq.com/about-us/ and their names should match the `name` field on the **Thought** object). You can get the employee photo on the backend or the frontend, we don't care, it just needs to be shown on the frontend to impress the executives 😅.
+8. What five questions would you ask us about our company and software?
 
-Since only 1 request can be made to the CN, but there will likely be many executives that all want to see this at once from multiple clients/locations, we need all connected clients to show some kind of 'loading' indicator if a request to the CN is already being made.
+9. What do you think is the most important aspect of this job?
 
-# Diagrams/Notes:
+10. How will PDQ.com get you where you want to go in your career?
 
-## Thoughts:
-* The CN is, as you can tell, fairly unstable and will occasionally return `status: 500` errors. You will need to handle this, either on the frontend or the backend so that we don't look bad in front of the executives!
-* You can create your application in whatever language you want, however understand that our preference and what we use is generally C#/TypeScript/JavaScript with .Net Core, Node, and React.
-* We consider it a bonus if you containerize this application. If we can just run `docker-compose up` we'll literally cry with joy 😂
+## Final Step:
+When finished, zip up your document ensuring that the .zip file name contains your name, and upload the .zip file to https://link.pdq.com/application (no account required). Submissions are reviewed within 3 - 6 business days and considered for an interview.
 
-## Disclaimers:
-1. All PDQ.com employees have signed waivers ensuring that they understand the risk involved with mind reading technology and all research involving the Cabalistic Necromancer, the Talismanic Formula, and [scp-2663](http://www.scp-wiki.net/scp-2663).
-
-## Warning:
-### Some of the following links contain trade secrets and should not be discussed outside of the scope of this project!
-
-## Links:
-* [Cabalistic Necromancer System Diagram](./Cabalistic_Necromancer.png)
+## Important
+Please do not include anything in your files (other than your name as the zip file) that could identify you. Submissions are anonymized on receipt so our team does not know whose homework they are evaluating (the entire team will review your homework).
