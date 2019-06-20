@@ -40,7 +40,7 @@ _____ Other: _____________________________
 
 9. What do you think is the most important aspect of this job?
 
-10. How will PDQ.com get you where you want to go in your career?
+10. How will working at PDQ.com get you where you want to go in your career?
 
 ## Final Step:
 When finished, zip up your document ensuring that the .zip file name contains your name, and upload the .zip file to https://link.pdq.com/application (no account required). Submissions are reviewed within 3 - 6 business days and considered for an interview.
