@@ -1,6 +1,6 @@
-# Jr. System Administrator (Associate Solutions Engineer) Technical Assessment
+# Jr. System Administrator (Associate Solutions Engineer) Homework
 
-Please read the instructions and questions carefully. This is an open-book assessment, so feel free to use your highly honed Google-Fu skills, but please don't copy the work of others or have anyone else help you.
+Please read the instructions and questions carefully. This is an open-book assignment, so feel free to use your highly honed Google-Fu skills, but please don't copy the work of others or have anyone else help you. The entire team will evaluate your homework, which means you are free to use acronyms and technical/industry-specific language where appropriate and expedient.
 
 Create/open a plain .txt file and answer the following:
 
@@ -43,7 +43,7 @@ _____ Other: _____________________________
 10. How will working at PDQ.com get you where you want to go in your career?
 
 ## Final Step:
-When finished, zip up your document ensuring that the .zip file name contains your name, and upload the .zip file to https://link.pdq.com/application (no account required). Submissions are reviewed within 3 - 6 business days and considered for an interview.
+When finished, zip up your plain text file ensuring that the .zip file name contains your name, and upload the .zip file to https://link.pdq.com/application (no account required). Submissions are reviewed within 3 - 6 business days and considered for an interview.
 
 ## Important
-Please do not include anything in your files (other than your name as the zip file) that could identify you. Submissions are anonymized on receipt so our team does not know whose homework they are evaluating (the entire team will review your assessment).
+Please do not include anything in your homework submission (other than your name as the zip file) that could identify you. Submissions are anonymized on receipt so our team does not know whose homework they are evaluating.
