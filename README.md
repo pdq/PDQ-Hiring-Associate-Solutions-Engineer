@@ -1,6 +1,6 @@
 # Jr. System Administrator (Associate Solutions Engineer) Technical Assessment
 
-This is an open book assessment so use your highly honed Google-Fu skills.
+Please read the instructions and questions carefully. This is an open-book assessment, so feel free to use your highly honed Google-Fu skills, but please don't copy the work of others or have anyone else help you.
 
 Create/open a plain .txt file and answer the following:
 
@@ -46,4 +46,4 @@ _____ Other: _____________________________
 When finished, zip up your document ensuring that the .zip file name contains your name, and upload the .zip file to https://link.pdq.com/application (no account required). Submissions are reviewed within 3 - 6 business days and considered for an interview.
 
 ## Important
-Please do not include anything in your files (other than your name as the zip file) that could identify you. Submissions are anonymized on receipt so our team does not know whose homework they are evaluating (the entire team will review your homework).
+Please do not include anything in your files (other than your name as the zip file) that could identify you. Submissions are anonymized on receipt so our team does not know whose homework they are evaluating (the entire team will review your assessment).
