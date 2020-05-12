@@ -43,7 +43,7 @@ _____ Other: _____________________________
 10. How will working at PDQ.com get you where you want to go in your career?
 
 ## Final Step:
-When finished, zip up your plain text file ensuring that the .zip file name contains your name, and upload the .zip file to https://link.pdq.com/application (no account required). Submissions are reviewed within 3 - 6 business days and considered for an interview.
+When finished, zip up your plain text file ensuring that the .zip file name contains your name, and upload the .zip file to https://fileinbox.com/application (no account required). Submissions are reviewed within 3 - 6 business days and considered for an interview.
 
 ## Important
 Please do not include anything in your homework submission (other than your name as the zip file) that could identify you. Submissions are anonymized on receipt so our team does not know whose homework they are evaluating.
